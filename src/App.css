@@ -1,24 +1,40 @@
 .Color {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   height: 500px;
-  width: 1820px;
+  width: 100%;
   text-align: center;
-  background-color: aquamarine;
+  background-color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .ColorForm {
   display: flex;
   flex-direction: column;
+  background-color: rgb(200, 200, 200);
+  height: 200px;
+  width: 300px;
 }
 
 .ColorForm input {
   margin-top: 1em;
+  border-radius: 0.38em;
 }
-
+.ColorForm button {
+  margin-top: 3em;
+  border-radius: 0.38em;
+  background-color: rgb(50, 113, 193);
+  color: aliceblue;
+}
 .Card {
   display: flex;
   flex-direction: column;
-  background-color: rgb(247, 248, 146);
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+}
+.Comida {
+  background-color: rgb(99, 189, 65);
+  color: aliceblue;
 }

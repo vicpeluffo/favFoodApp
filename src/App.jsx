@@ -21,7 +21,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (name.length < 3 && regex.test(name)) {
+    if (name.length < 3 || regex.test(name)) {
       setError(true);
     } else if (comida.length < 6) {
       setError(true);
